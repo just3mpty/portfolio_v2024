@@ -7,11 +7,19 @@
     padding: 15px;
     border-bottom: 1px solid #ededed;
 
+    @media screen and (min-width: 800px) {
+        gap: 50px;
+    }
+
     h1 {
         font-family: barlow;
         text-transform: uppercase;
         font-weight: 900;
         font-size: 16px;
+
+        @media screen and (min-width: 800px) {
+            flex: 1;
+        }
 
         span {
             font-weight: 100;
@@ -82,5 +90,71 @@
                 }
             }
         }
+    }
+
+    .desktopLinks {
+        display: flex;
+        gap: 15px;
+        flex: 1;
+
+        a {
+            font-family: barlow;
+            font-size: 16px;
+            opacity: 0.25;
+            text-transform: uppercase;
+            transition: 0.6s;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                opacity: 1;
+                text-decoration: line-through;
+                text-decoration-color: #7ac34e;
+                text-decoration-thickness: 15pxpx;
+
+                &::before {
+                    content: "[";
+                }
+                &::after {
+                    content: "]";
+                }
+            }
+        }
+    }
+    .availableLink {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex: 1;
+        gap: 15px;
+        padding: 15px 0;
+        border: 1px solid #7ac34e;
+        max-width: 250px;
+        transition: 0.4s;
+
+        &:hover {
+            background: #7ac34e;
+        }
+
+        p {
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        img {
+            animation: rotate 5s linear infinite;
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+        }
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
