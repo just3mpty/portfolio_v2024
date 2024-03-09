@@ -4,6 +4,73 @@
     flex-direction: column;
     gap: 25px;
     padding: 65px 15px 15px;
+
+    @media screen and (min-width: 800px) {
+        height: 400vh;
+        position: relative;
+    }
+
+    .horizontalContainer {
+        position: sticky;
+        top: 0;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        overflow: hidden;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            .textWrapper {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: calc(100vw - 75px);
+
+                h2 {
+                    font-size: 75px;
+                    flex: 2;
+                    font-weight: 300;
+
+                    @media screen and (min-width: 1000px) {
+                        font-size: 100px;
+                    }
+                    @media screen and (min-width: 1200px) {
+                        font-size: 120px;
+                    }
+                    @media screen and (min-width: 1400px) {
+                        font-size: 150px;
+                    }
+                }
+
+                figure {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex: 1;
+
+                    img {
+                        width: 100%;
+                        height: fit-content;
+                    }
+
+                    figcaption {
+                        position: absolute;
+                        font-weight: 100;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        transform: translateY(-15px);
+                    }
+                }
+            }
+        }
+    }
+
     h2 {
         font-size: 50px;
         display: flex;
@@ -17,10 +84,21 @@
     }
 
     .container {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
         align-items: center;
+
+        @media screen and (min-width: 600px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (min-width: 800px) {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
 
         a {
             width: 100%;
@@ -31,6 +109,19 @@
             align-items: center;
             justify-content: center;
 
+            @media screen and (min-width: 800px) {
+                aspect-ratio: unset;
+                width: 85vw;
+                height: 50vh;
+                flex: 1;
+            }
+            @media screen and (min-width: 1100px) {
+                height: 60vh;
+            }
+            @media screen and (min-width: 1400px) {
+                height: 70vh;
+            }
+
             img {
                 object-fit: cover;
             }
@@ -38,17 +129,27 @@
             h3 {
                 position: absolute;
                 font-family: kudry;
-                font-size: 50px;
+                font-size: 35px;
                 font-weight: 100;
+
+                @media screen and (min-width: 900px) {
+                    font-size: 60px;
+                }
             }
 
             .text {
                 position: absolute;
-                bottom: 15px;
-                right: 15px;
+                bottom: 10px;
+                right: 10px;
                 display: flex;
                 gap: 15px;
                 align-items: center;
+
+                @media screen and (min-width: 800px) {
+                    bottom: unset;
+                    right: unset;
+                    transform: translateY(50px);
+                }
 
                 p {
                     text-transform: uppercase;
