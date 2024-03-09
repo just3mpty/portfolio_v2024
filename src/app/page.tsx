@@ -1,9 +1,14 @@
 import Link from "next/link";
 import styles from "./homepage.module.scss";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import star from "/public/img/star.svg";
 import profilPicture from "/public/img/profilPic.png";
+
+const Scene = dynamic(() => import("@/components/Canvas/Scene"), {
+    ssr: false,
+});
 
 export default function Home() {
     return (
@@ -28,6 +33,7 @@ export default function Home() {
                         fill
                     />
                 </figure>
+                <Scene />
             </div>
         </>
     );

@@ -7,6 +7,11 @@
     padding-top: 75px;
     min-height: 100vh;
 
+    @media screen and (min-width: 800px) {
+        align-items: center;
+        justify-content: center;
+    }
+
     h1 {
         font-size: 75px;
         font-weight: 300;
@@ -19,6 +24,10 @@
         @media screen and (min-width: 700px) {
             font-size: 150px;
         }
+        @media screen and (min-width: 800px) {
+            font-size: 175px;
+            text-align: center;
+        }
 
         span {
             font-family: kudry;
@@ -29,7 +38,11 @@
         font-weight: 100;
         text-transform: uppercase;
         font-size: 18px;
-        max-width: 500px;
+        max-width: 450px;
+
+        @media screen and (min-width: 800px) {
+            text-align: center;
+        }
 
         span {
             &:nth-of-type(1) {
@@ -56,6 +69,10 @@
         max-width: 250px;
         transition: 0.4s;
 
+        @media screen and (min-width: 800px) {
+            display: none;
+        }
+
         p {
             text-transform: uppercase;
             font-size: 16px;
@@ -76,6 +93,10 @@
         height: 100%;
         aspect-ratio: 1/1;
         z-index: -1;
+
+        @media screen and (min-width: 800px) {
+            display: none;
+        }
 
         img {
             object-fit: cover;
