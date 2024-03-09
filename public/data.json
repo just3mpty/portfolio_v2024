@@ -1,6 +1,6 @@
 [
     {
-        "_id": "1",
+        "_id": 1,
         "title": "Ronan Deruet",
         "category": "Portfolio",
         "cover": "/img/ronan/cover.webp",
@@ -13,10 +13,11 @@
             "/icons/sass.svg",
             "/icons/framer-motion.svg"
         ],
-        "linkToWebiste": "https://ronanderuet.vercel.app"
+        "linkToWebiste": "https://ronanderuet.vercel.app",
+        "credits": "Photo by: ?"
     },
     {
-        "_id": "2",
+        "_id": 2,
         "title": "34murphy",
         "category": "Artist's news",
         "cover": "/img/murphy/cover.webp",
@@ -29,10 +30,11 @@
             "/icons/react.svg",
             "/icons/sass.svg"
         ],
-        "linkToWebiste": "https://34murphy.vercel.app"
+        "linkToWebiste": "https://34murphy.vercel.app",
+        "credits": "Photo by: @ronandrt"
     },
     {
-        "_id": "3",
+        "_id": 3,
         "title": "Zenifine",
         "category": "Showcase website",
         "cover": "/img/zenifine/cover.webp",
@@ -45,10 +47,11 @@
             "/icons/react.svg",
             "/icons/sass.svg"
         ],
-        "linkToWebiste": "https://zenifine.vercel.app"
+        "linkToWebiste": "https://zenifine.vercel.app",
+        "credits": "Photo by: Life of Pix"
     },
     {
-        "_id": "4",
+        "_id": 4,
         "title": "Flowerz",
         "category": "Showcase website",
         "cover": "/img/flowerz/cover.webp",
@@ -61,10 +64,11 @@
             "/icons/react.svg",
             "/icons/sass.svg"
         ],
-        "linkToWebiste": "https://flowerz.vercel.app"
+        "linkToWebiste": "https://flowerz.vercel.app",
+        "credits": "Photo by: Cottonbro Studio"
     },
     {
-        "_id": "5",
+        "_id": 5,
         "title": "Empty7",
         "category": "Artist's news",
         "cover": "/img/empty7/cover.webp",
@@ -77,10 +81,11 @@
             "/icons/react.svg",
             "/icons/sass.svg"
         ],
-        "linkToWebiste": "https://empty7.vercel.app"
+        "linkToWebiste": "https://empty7.vercel.app",
+        "credits": "Photo by: @2ja222"
     },
     {
-        "_id": "6",
+        "_id": 6,
         "title": "Yung Poor Alo",
         "category": "Artist's news",
         "cover": "/img/ypa/cover.webp",
@@ -93,6 +98,7 @@
             "/icons/react.svg",
             "/icons/sass.svg"
         ],
-        "linkToWebiste": "https://jeunepauvre.vercel.app"
+        "linkToWebiste": "https://jeunepauvre.vercel.app",
+        "credits": "Photo by: @ronandrt"
     }
 ]
