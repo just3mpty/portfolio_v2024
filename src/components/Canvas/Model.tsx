@@ -1,31 +1,29 @@
-import { useGLTF } from "@react-three/drei";
-import { useFrame, useThree } from "@react-three/fiber";
+import { MeshTransmissionMaterial, useGLTF } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
-import { Group } from "three";
+import { Mesh } from "three";
 
 const Model = () => {
-    const mesh = useRef<Group>(null);
-    const { nodes } = useGLTF("/model/chaine.glb");
-    const { viewport } = useThree();
+    const mesh = useRef<Mesh>(null);
+    const { nodes } = useGLTF("/model/chaine_2.glb");
 
     useFrame(() => {
         if (mesh.current) {
-            mesh.current.rotation.x += 0.025;
+            mesh.current.rotation.x += 0.015;
             mesh.current.rotation.y += 0.005;
         }
     });
 
     return (
-        <group
-            ref={mesh}
-            scale={[
-                viewport.width / 50,
-                viewport.width / 50,
-                viewport.width / 50,
-            ]}>
-            <primitive object={nodes.Torus001} />
-            <primitive object={nodes.Torus003} />
-            <primitive object={nodes.Torus004} />
+        <group position={[0, 0, -4]}>
+            <primitive object={nodes.chaine} ref={mesh}>
+                <MeshTransmissionMaterial
+                    chromaticAberration={0.5}
+                    backside
+                    roughness={0.25}
+                    anisotropicBlur={0.2}
+                />
+            </primitive>
         </group>
     );
 };

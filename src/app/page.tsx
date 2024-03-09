@@ -33,7 +33,9 @@ export default function Home() {
                         fill
                     />
                 </figure>
-                <Scene />
+                <div className={styles.sceneContainer}>
+                    <Scene />
+                </div>
             </div>
         </>
     );
