@@ -30,9 +30,9 @@ const Navbar = () => {
     return (
         <>
             <nav className={styles.nav}>
-                <h1>
+                <Link className={styles.logo} href={"/"}>
                     CORRE<span>aurélien</span>
-                </h1>
+                </Link>
                 {width < 800 ? (
                     <>
                         <div

@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 
 import star from "/public/img/star.svg";
 import profilPicture from "/public/img/profilPic.png";
+import Gallery from "@/components/gallery/Gallery";
 
 const Scene = dynamic(() => import("@/components/Canvas/Scene"), {
     ssr: false,
@@ -37,6 +38,7 @@ export default function Home() {
                     <Scene />
                 </div>
             </div>
+            <Gallery />
         </>
     );
 }

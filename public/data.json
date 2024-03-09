@@ -1,0 +1,98 @@
+[
+    {
+        "_id": "1",
+        "title": "Ronan Deruet",
+        "category": "Portfolio",
+        "cover": "/img/ronan/cover.webp",
+        "video": "/img/ronan/video_preview.webm",
+        "images": ["/img/ronan/homepage.webp", "/img/ronan/gallery.webp"],
+        "description": "I meticulously designed the Figma mockup before translating the vision into code using React for my friend's concert photography portfolio. This portfolio showcases his dynamic work capturing moments at live performances, and the design aims to complement and highlight the vibrancy of his photography.",
+        "techStack": [
+            "/icons/figma.svg",
+            "/icons/nextjs.svg",
+            "/icons/sass.svg",
+            "/icons/framer-motion.svg"
+        ],
+        "linkToWebiste": "https://ronanderuet.vercel.app"
+    },
+    {
+        "_id": "2",
+        "title": "34murphy",
+        "category": "Artist's news",
+        "cover": "/img/murphy/cover.webp",
+        "video": "/img/murphy/video_preview.webm",
+        "images": ["/img/murphy/homepage.webp", "/img/murphy/contact.webp"],
+        "description": "For this project, I began by crafting a mockup on Figma before proceeding with web integration using React. This website is designed to provide users with quick and easy access to the latest news of a French rapper. By implementing a responsive and dynamic approach, the aim was to create an engaging space where fans can stay informed about the artist's latest developments and interact with the content in an intuitive manner.",
+        "techStack": [
+            "/icons/figma.svg",
+            "/icons/vite.svg",
+            "/icons/react.svg",
+            "/icons/sass.svg"
+        ],
+        "linkToWebiste": "https://34murphy.vercel.app"
+    },
+    {
+        "_id": "3",
+        "title": "Zenifine",
+        "category": "Showcase website",
+        "cover": "/img/zenifine/cover.webp",
+        "video": "/img/zenifine/video_preview.webm",
+        "images": ["/img/zenifine/homepage.webp", "/img/zenifine/contact.webp"],
+        "description": "I crafted a Figma mockup for the showcase website of wellness masseuse. Subsequently, I brought this vision to life by developing the site using React. The goal was to design a modern and sleek platform, highlighting efficiency and simplicity for an optimal user experience.",
+        "techStack": [
+            "/icons/figma.svg",
+            "/icons/vite.svg",
+            "/icons/react.svg",
+            "/icons/sass.svg"
+        ],
+        "linkToWebiste": "https://zenifine.vercel.app"
+    },
+    {
+        "_id": "4",
+        "title": "Flowerz",
+        "category": "Showcase website",
+        "cover": "/img/flowerz/cover.webp",
+        "video": "/img/flowerz/video_preview.webm",
+        "images": ["/img/flowerz/homepage.webp", "/img/flowerz/contact.webp"],
+        "description": "I crafted a captivating React-based showcase website for a fictional Parisian florist, seamlessly integrating a design created on Figma. This project harmoniously blends creativity and functionality to enhance the virtual presence of the imaginary florist, providing a visually appealing and user-friendly experience.",
+        "techStack": [
+            "/icons/figma.svg",
+            "/icons/vite.svg",
+            "/icons/react.svg",
+            "/icons/sass.svg"
+        ],
+        "linkToWebiste": "https://flowerz.vercel.app"
+    },
+    {
+        "_id": "5",
+        "title": "Empty7",
+        "category": "Artist's news",
+        "cover": "/img/empty7/cover.webp",
+        "video": "/img/empty7/video_preview.webm",
+        "images": ["/img/empty7/homepage.webp", "/img/empty7/actu.webp"],
+        "description": "I initiated the design process by creating a Figma mockup and subsequently implemented the web integration using React. This website serves as a platform for users to stay updated on the latest news of an artist, specifically, a rapper. The aim was to provide an engaging and dynamic space for fans to connect with the artist's latest developments.",
+        "techStack": [
+            "/icons/figma.svg",
+            "/icons/vite.svg",
+            "/icons/react.svg",
+            "/icons/sass.svg"
+        ],
+        "linkToWebiste": "https://empty7.vercel.app"
+    },
+    {
+        "_id": "6",
+        "title": "Yung Poor Alo",
+        "category": "Artist's news",
+        "cover": "/img/ypa/cover.webp",
+        "video": "/img/ypa/video_preview.webm",
+        "images": ["/img/ypa/homepage.webp", "/img/ypa/contact.webp"],
+        "description": "This website is designed for an artist who is a french rapper, allowing his fans to stay updated on his latest activities. I initially crafted a Figma mockup before proceeding with the web integration using React.",
+        "techStack": [
+            "/icons/figma.svg",
+            "/icons/vite.svg",
+            "/icons/react.svg",
+            "/icons/sass.svg"
+        ],
+        "linkToWebiste": "https://jeunepauvre.vercel.app"
+    }
+]
