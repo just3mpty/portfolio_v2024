@@ -10,7 +10,10 @@ const Projects = () => {
     return (
         <div className={styles.container}>
             {data.map((project) => (
-                <Link href={`${project._id}`} target="_top" key={project._id}>
+                <Link
+                    href={`/project/${project._id}`}
+                    target="_top"
+                    key={project._id}>
                     <Image
                         src={project.cover}
                         alt={`${project.title}'s preview`}

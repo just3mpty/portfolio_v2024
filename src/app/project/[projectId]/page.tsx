@@ -1,11 +1,11 @@
 import React from "react";
-import data from "../../../public/data.json";
+import data from "../../../../public/data.json";
 import styles from "./selectedProject.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-import externalLink from "../../../public/icons/link.svg";
-import arrow from "../../../public/icons/arrow.svg";
+import externalLink from "../../../../public/icons/link.svg";
+import arrow from "../../../../public/icons/arrow.svg";
 
 const page = ({ params }: { params: { projectId: string } }) => {
     const { projectId } = params;

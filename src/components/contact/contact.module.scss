@@ -76,6 +76,8 @@
             font-weight: 100;
             color: #7ac34e;
             max-width: 350px;
+            position: relative;
+            overflow: hidden;
 
             @media screen and (min-width: 800px) {
                 width: 50%;

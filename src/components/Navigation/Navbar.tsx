@@ -14,9 +14,9 @@ type NavLinks = {
 };
 
 const Navlinks: NavLinks[] = [
-    { name: "Projetcs", path: "#gallery" },
-    { name: "About", path: "#about" },
-    { name: "Contact", path: "#contact" },
+    { name: "Projetcs", path: "/#gallery" },
+    { name: "About", path: "/#about" },
+    { name: "Contact", path: "/#contact" },
 ];
 
 const Navbar = () => {
@@ -81,17 +81,21 @@ const Navbar = () => {
                     <>
                         <ul className={styles.desktopLinks}>
                             {Navlinks.map((link, index) => (
-                                <a href={link.path} key={index}>
+                                <Link
+                                    href={link.path}
+                                    target="_top"
+                                    key={index}>
                                     <li>{link.name}</li>
-                                </a>
+                                </Link>
                             ))}
                         </ul>
 
                         <Link
                             className={styles.availableLink}
                             href={"#contact"}>
-                            <p>Available for work</p>
+                            <p>Available for work !</p>
                             <Image src={star} alt="Star icon" />
+                            <div className={styles.bg}></div>
                         </Link>
                     </>
                 )}

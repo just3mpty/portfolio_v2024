@@ -5,7 +5,7 @@ import { Mesh } from "three";
 
 const Model = () => {
     const mesh = useRef<Mesh>(null);
-    const { nodes } = useGLTF("/model/chaine_2.glb");
+    const { nodes } = useGLTF("/model/chaine_3.glb");
 
     useFrame(() => {
         if (mesh.current) {
