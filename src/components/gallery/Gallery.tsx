@@ -30,7 +30,7 @@ const Gallery = () => {
                 <div className={styles.horizontalContainer}>
                     <motion.div style={{ x }}>
                         <div className={styles.textWrapper}>
-                            <h2>
+                            <h2 data-aos="fade-up">
                                 Some of my <span>work</span>
                             </h2>
                             <figure>
