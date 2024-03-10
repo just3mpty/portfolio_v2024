@@ -1,5 +1,5 @@
 import { MeshTransmissionMaterial, useGLTF } from "@react-three/drei";
-import { useFrame } from "@react-three/fiber";
+import { useFrame, useThree } from "@react-three/fiber";
 import { useRef } from "react";
 import { Mesh } from "three";
 
@@ -15,14 +15,9 @@ const Model = () => {
     });
 
     return (
-        <group position={[0, 0, -4]}>
+        <group scale={1.2} position={[0, 0, -4]}>
             <primitive object={nodes.chaine} ref={mesh}>
-                <MeshTransmissionMaterial
-                    chromaticAberration={0.5}
-                    backside
-                    roughness={0.25}
-                    anisotropicBlur={0.2}
-                />
+                <MeshTransmissionMaterial metalness={1} color={0xededed} />
             </primitive>
         </group>
     );

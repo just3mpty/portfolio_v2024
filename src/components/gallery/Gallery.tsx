@@ -18,7 +18,7 @@ const Gallery = () => {
     const x = useTransform(scrollYProgress, [0, 1], ["0.1%", "-85%"]);
 
     return (
-        <section ref={targetRef} id={styles.gallery}>
+        <section ref={targetRef} id="gallery" className={styles.gallery}>
             {width < 800 ? (
                 <>
                     <h2>

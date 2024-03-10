@@ -1,4 +1,4 @@
-#gallery {
+.gallery {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     padding: 65px 15px 15px;
 
     @media screen and (min-width: 800px) {
-        height: 400vh;
+        height: 600vh;
         position: relative;
     }
 

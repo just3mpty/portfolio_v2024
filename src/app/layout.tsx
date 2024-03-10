@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import Navbar from "@/components/Navigation/Navbar";
 
 export const metadata: Metadata = {
     title: "CORRE Aurélien",
@@ -15,10 +14,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>
-                <Navbar />
-                {children}
-            </body>
+            <body>{children}</body>
         </html>
     );
 }

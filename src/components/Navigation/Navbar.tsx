@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.scss";
 import Link from "next/link";
 import useDimension from "@/hooks/useDimensions";
@@ -81,11 +81,12 @@ const Navbar = () => {
                     <>
                         <ul className={styles.desktopLinks}>
                             {Navlinks.map((link, index) => (
-                                <Link href={link.path} key={index}>
+                                <a href={link.path} key={index}>
                                     <li>{link.name}</li>
-                                </Link>
+                                </a>
                             ))}
                         </ul>
+
                         <Link
                             className={styles.availableLink}
                             href={"#contact"}>
