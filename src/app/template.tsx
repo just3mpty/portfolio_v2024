@@ -5,6 +5,7 @@ import Lenis from "@studio-freight/lenis";
 import Navbar from "@/components/Navigation/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "@/components/footer/Footer";
 
 const variants = {
     hidden: { opacity: 0, x: 0, y: 100 },
@@ -35,6 +36,7 @@ export default function Template({ children }: { children: ReactNode }) {
             }}>
             <Navbar />
             {children}
+            <Footer />
         </motion.main>
     );
 }

@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-top: 1px solid #ededed;
+
+    @media screen and (min-width: 800px) {
+        gap: 50px;
+        padding: 25px 50px;
+        justify-content: flex-end;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    li {
+        position: relative;
+        width: 25px;
+        height: 25px;
+
+        img {
+            opacity: 0.5;
+            transition: 0.4s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
