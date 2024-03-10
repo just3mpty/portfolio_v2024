@@ -92,7 +92,7 @@ const Navbar = () => {
 
                         <Link
                             className={styles.availableLink}
-                            href={"#contact"}>
+                            href={"/#contact"}>
                             <p>Available for work !</p>
                             <Image src={star} alt="Star icon" />
                             <div className={styles.bg}></div>
