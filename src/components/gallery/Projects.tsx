@@ -29,6 +29,7 @@ const Projects = () => {
                             height={12}
                         />
                     </div>
+                    <p className={styles.credits}>{project.credits}</p>
                 </Link>
             ))}
         </div>

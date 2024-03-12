@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "@/components/footer/Footer";
 import Cursor from "@/components/cursor/Cursor";
+import useDimension from "@/hooks/useDimensions";
 
 const variants = {
     hidden: { opacity: 0, x: 0, y: 100 },
@@ -14,6 +15,8 @@ const variants = {
 };
 
 export default function Template({ children }: { children: ReactNode }) {
+    const { width } = useDimension();
+
     useEffect(() => {
         AOS.init();
         const lenis = new Lenis();
@@ -35,10 +38,20 @@ export default function Template({ children }: { children: ReactNode }) {
                 duration: 1,
                 ease: [0.2, 1, 0.3, 1],
             }}>
-            <Cursor />
-            <Navbar />
-            {children}
-            <Footer />
+            {width > 800 ? (
+                <>
+                    <Cursor />
+                    <Navbar />
+                    {children}
+                    <Footer />
+                </>
+            ) : (
+                <>
+                    <Navbar />
+                    {children}
+                    <Footer />
+                </>
+            )}
         </motion.main>
     );
 }
