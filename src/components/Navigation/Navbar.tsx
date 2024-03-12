@@ -89,7 +89,6 @@ const Navbar = () => {
                                 </Link>
                             ))}
                         </ul>
-
                         <Link
                             className={styles.availableLink}
                             href={"/#contact"}>

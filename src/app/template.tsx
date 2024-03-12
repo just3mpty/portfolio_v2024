@@ -6,6 +6,7 @@ import Navbar from "@/components/Navigation/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "@/components/footer/Footer";
+import Cursor from "@/components/cursor/Cursor";
 
 const variants = {
     hidden: { opacity: 0, x: 0, y: 100 },
@@ -34,6 +35,7 @@ export default function Template({ children }: { children: ReactNode }) {
                 duration: 1,
                 ease: [0.2, 1, 0.3, 1],
             }}>
+            <Cursor />
             <Navbar />
             {children}
             <Footer />

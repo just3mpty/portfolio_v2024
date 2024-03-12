@@ -75,7 +75,7 @@ const page = ({ params }: { params: { projectId: string } }) => {
                     <p>Back to homepage</p>
                 </Link>
                 {selectedProject && selectedProject._id < data.length && (
-                    <Link href={`/${selectedProject._id + 1}`}>
+                    <Link href={`/project/${selectedProject._id + 1}`}>
                         <Image
                             src={arrow}
                             alt="Arrow icon"
