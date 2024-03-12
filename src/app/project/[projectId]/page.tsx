@@ -65,14 +65,14 @@ const page = ({ params }: { params: { projectId: string } }) => {
                 ))}
             </div>
             <div className={styles.navigation}>
-                <Link href={"/"} target="#gallery">
+                <Link href={"/#gallery"}>
                     <Image
                         src={arrow}
                         alt="Arrow icon"
                         width={50}
                         height={25}
                     />
-                    <p>Back to homepage</p>
+                    <p>Back to gallery</p>
                 </Link>
                 {selectedProject && selectedProject._id < data.length && (
                     <Link href={`/project/${selectedProject._id + 1}`}>
