@@ -159,10 +159,14 @@
 
             .credits {
                 position: absolute;
-                bottom: 15px;
-                right: 15px;
+                bottom: 10px;
+                left: 10px;
                 color: #ededed;
                 font-weight: 100;
+
+                @media screen and (min-width: 800px) {
+                    right: 10px;
+                }
             }
         }
     }
