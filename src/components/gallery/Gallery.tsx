@@ -21,7 +21,7 @@ const Gallery = () => {
         <section ref={targetRef} id="gallery" className={styles.gallery}>
             {width < 800 ? (
                 <>
-                    <h2 data-aos="fade-up">
+                    <h2>
                         Some of my <span>work</span>
                     </h2>
                     <Projects />

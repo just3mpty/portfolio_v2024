@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <section id="contact" className={styles.contact}>
             <div className={styles.heading}>
-                <h2 data-aos="fade-up">
+                <h2>
                     Don't be shy, <br />
                     <span>Say hi !</span>
                 </h2>
