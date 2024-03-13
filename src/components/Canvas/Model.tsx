@@ -9,8 +9,9 @@ const Model = () => {
 
     useFrame(() => {
         if (mesh.current) {
-            mesh.current.rotation.x += 0.0025;
+            mesh.current.rotation.x -= 0.0025;
             mesh.current.rotation.y -= 0.0025;
+            mesh.current.rotation.z -= 0.0025;
         }
     });
 
