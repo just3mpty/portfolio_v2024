@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.scss";
 
 export const metadata: Metadata = {
-    title: "CORRE Aurélien",
+    title: "CORRE Aurélien | Front-end Developer",
     description:
         "Front-end developer based in Brest, France. I love to create and bring your design ideas to life.",
 };
