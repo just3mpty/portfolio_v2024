@@ -24,6 +24,7 @@
         h2 {
             font-size: 40px;
             font-weight: 300;
+            font-family: barlowRegular;
 
             @media screen and (min-width: 360px) {
                 font-size: 50px;
@@ -55,6 +56,7 @@
         }
         p {
             font-weight: 100;
+            font-family: barlowThin;
             opacity: 0.5;
             font-size: 12px;
 
@@ -74,6 +76,7 @@
             text-align: center;
             font-size: 24px;
             font-weight: 100;
+            font-family: barlowThin;
             color: #7ac34e;
             max-width: 350px;
             position: relative;
@@ -102,9 +105,11 @@
 
             &:nth-of-type(1) {
                 font-weight: 600;
+                font-family: barlowBold;
             }
             &:nth-of-type(2) {
                 font-weight: 100;
+                font-family: barlowThin;
                 opacity: 0.5;
             }
         }

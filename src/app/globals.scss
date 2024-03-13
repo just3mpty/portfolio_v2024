@@ -1,8 +1,19 @@
 // FONTS
 @font-face {
-    font-family: barlow;
-    src: url(/fonts/BARLOW-BLACK.TTF) url(/fonts/BARLOW-BOLD.TTF)
-        url(/fonts/BARLOW-REGULAR.TTF) url(/fonts/BARLOW-THIN.TTF);
+    font-family: barlowBlack;
+    src: url(/fonts/BARLOW-BLACK.TTF);
+}
+@font-face {
+    font-family: barlowBold;
+    src: url(/fonts/BARLOW-BOLD.TTF);
+}
+@font-face {
+    font-family: barlowRegular;
+    src: url(/fonts/BARLOW-REGULAR.TTF);
+}
+@font-face {
+    font-family: barlowThin;
+    src: url(/fonts/BARLOW-THIN.TTF);
 }
 @font-face {
     font-family: kudry;
@@ -18,7 +29,7 @@
 body {
     background: #060606;
     color: #ededed;
-    font-family: barlow;
+    font-family: barlowRegular;
 }
 
 li {
