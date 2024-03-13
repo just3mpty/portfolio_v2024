@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import styles from "@/app/homepage.module.scss";
 
 import star from "/public/img/star.svg";

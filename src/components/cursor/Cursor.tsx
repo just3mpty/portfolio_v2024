@@ -6,7 +6,7 @@ const Cursor = () => {
         idleAnimation: true,
         idleAnimationCount: 10,
         inverted: true,
-        size: 25,
+        size: 15,
         trailCount: 50,
     };
 
