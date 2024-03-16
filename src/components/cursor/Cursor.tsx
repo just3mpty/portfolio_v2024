@@ -2,7 +2,7 @@ import MouseTrail from "@pjsalita/react-mouse-trail";
 
 const Cursor = () => {
     const config = {
-        color: "#000000",
+        color: "#fff",
         idleAnimation: true,
         idleAnimationCount: 10,
         inverted: true,
