@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
         <>
             <nav className={styles.nav}>
-                <Link className={styles.logo} href={"/"}>
+                <Link className={styles.logo} href={"/"} target="_top">
                     CORRE<span>aurélien</span>
                 </Link>
                 {width < 800 ? (
