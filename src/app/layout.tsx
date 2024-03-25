@@ -28,7 +28,7 @@ export default function RootLayout({
                 />
                 <meta
                     name="twitter:image"
-                    content="https://pbs.twimg.com/profile_images/1760770563004301312/7kpwFPxr_400x400.jpg"
+                    content="https://aureliencorre.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofilPic.b7a2d8a1.png&w=1920&q=75"
                 />
                 {/* Balises meta pour Instagram */}
                 <meta property="og:type" content="website" />
@@ -42,7 +42,7 @@ export default function RootLayout({
                 />
                 <meta
                     property="og:image"
-                    content="https://scontent-cdg4-1.cdninstagram.com/v/t51.2885-19/429191045_1446251916248858_4481433927604116951_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_cat=102&_nc_ohc=0_6p6-7ZH-oAX-0zPj9&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAAjfgu8N8C3G3O3xSib4hANdwREIT0Zn7coU45-xjQeQ&oe=6606ADDB&_nc_sid=8b3546"
+                    content="https://aureliencorre.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofilPic.b7a2d8a1.png&w=1920&q=75"
                 />
             </head>
             <body>{children}</body>
