@@ -12,6 +12,37 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        name: "Aurélien Corre",
+        image: "https://aureliencorre.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofilPic.b7a2d8a1.png&w=1920&q=75",
+        "@id": "https://aureliencorre.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofilPic.b7a2d8a1.png&w=1920&q=75",
+        url: "https://aureliencorre.vercel.app/",
+        telephone: "0659920450",
+        priceRange: "$$",
+        address: {
+            "@type": "PostalAddress",
+            streetAddress: "31 Cité de Bel Air",
+            addressLocality: "Saint-Thégonnec Loc-Eguiner",
+            postalCode: "29410",
+            addressCountry: "FR",
+        },
+        openingHoursSpecification: {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+            ],
+            opens: "10:00",
+            closes: "21:00",
+        },
+    };
+
     return (
         <html lang="fr">
             <head>
@@ -43,6 +74,10 @@ export default function RootLayout({
                 <meta
                     property="og:image"
                     content="https://aureliencorre.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofilPic.b7a2d8a1.png&w=1920&q=75"
+                />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />
             </head>
             <body>{children}</body>
