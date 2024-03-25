@@ -21,7 +21,7 @@ const Projects = () => {
                     />
                     <h3>{project.title}</h3>
                     <div className={styles.text}>
-                        <p>Learn more</p>
+                        <p>Voir le projet</p>
                         <Image
                             src={arrow}
                             alt="Arrow icon"

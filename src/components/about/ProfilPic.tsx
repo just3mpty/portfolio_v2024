@@ -16,10 +16,10 @@ const ProfilPic = () => {
         <ParallaxProvider>
             <div className={styles.joke}>
                 <p>
-                    I don't really know what to say here, so just know that i
-                    like music <span>(a lot)</span>, web design, web
-                    development, and coffee{" "}
-                    <span>(but you already knew that)</span>.
+                    Actuellement sur le parcours Intégrateur Web chez
+                    OpenClassrooms, j'aime <span>(beaucoup)</span> la musique,
+                    le web design, le développement web, et le café{" "}
+                    <span>(mais ça tu le savais déjà)</span>.
                 </p>
                 <ParallaxBanner className={styles.figure}>
                     <ParallaxBannerLayer image={profilPic.src} speed={-20} />

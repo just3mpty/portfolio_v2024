@@ -8,10 +8,10 @@ const About = () => {
         <>
             <section id="about" className={styles.about}>
                 <div className={styles.bio}>
-                    <p>Hi !</p>
+                    <p>Salut !</p>
                     <p>
-                        I'm <span>Aurélien</span>, a twenty-seven years old{" "}
-                        <span>front-end</span> <span>developer</span> based in{" "}
+                        Moi c'est <span>Aurélien</span>, j'ai vingt-sept ans,{" "}
+                        <span>développeur</span> <span>front-end</span> basé à{" "}
                         <span>Brest</span>, France.
                     </p>
                 </div>

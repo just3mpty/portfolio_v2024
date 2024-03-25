@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import dynamic from "next/dynamic";
@@ -35,9 +36,9 @@ const Homepage = () => {
                             CORRE<span>Aurélien</span>
                         </h1>
                         <p>
-                            <span>frontend developer</span> that spends{" "}
-                            <span>more</span> (oops) <span>less</span> time
-                            drinking coffee than coding stuff.
+                            <span>Développeur frontend</span> passant{" "}
+                            <span>moins</span> (oups) <span>plus</span> de temps
+                            à coder des trucs qu'à boire du café.
                         </p>
                     </Parallax>
                 </ParallaxProvider>
@@ -47,14 +48,14 @@ const Homepage = () => {
                         CORRE<span>Aurélien</span>
                     </h1>
                     <p>
-                        <span>frontend developer</span> that spends{" "}
-                        <span>more</span> (oops) <span>less</span> time drinking
-                        coffee than coding stuff.
+                        <span>Développeur frontend</span> passant{" "}
+                        <span>moins</span> (oups) <span>plus</span> de temps à
+                        coder des trucs qu'à boire du café.
                     </p>
                 </>
             )}
             <Link className={styles.availableLink} href={"#contact"}>
-                <p>Available for work</p>
+                <p>Je suis disponible !</p>
                 <Image src={star} alt="Star icon" width={20} height={20} />
             </Link>
             <figure>

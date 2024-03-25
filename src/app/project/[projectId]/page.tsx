@@ -42,7 +42,7 @@ const page = ({ params }: { params: { projectId: string } }) => {
                     <Link
                         href={`${selectedProject?.linkToWebiste}`}
                         target="_blank">
-                        <p>See live</p>
+                        <p>Voir le site</p>
                         <Image
                             src={externalLink}
                             alt="External link icon"
@@ -72,7 +72,7 @@ const page = ({ params }: { params: { projectId: string } }) => {
                         width={50}
                         height={25}
                     />
-                    <p>Back to gallery</p>
+                    <p>Retour à la galerie</p>
                 </Link>
                 {selectedProject && selectedProject._id < data.length && (
                     <Link href={`/project/${selectedProject._id + 1}`}>
@@ -82,7 +82,7 @@ const page = ({ params }: { params: { projectId: string } }) => {
                             width={50}
                             height={25}
                         />
-                        <p>Next project</p>
+                        <p>Projet suivant</p>
                     </Link>
                 )}
             </div>

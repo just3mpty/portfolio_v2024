@@ -14,8 +14,8 @@ type NavLinks = {
 };
 
 const Navlinks: NavLinks[] = [
-    { name: "Projetcs", path: "/#gallery" },
-    { name: "About", path: "/#about" },
+    { name: "Projets", path: "/#gallery" },
+    { name: "A propos", path: "/#about" },
     { name: "Contact", path: "/#contact" },
 ];
 
@@ -92,7 +92,7 @@ const Navbar = () => {
                         <Link
                             className={styles.availableLink}
                             href={"/#contact"}>
-                            <p>Available for work !</p>
+                            <p>Je suis disponible !</p>
                             <Image src={star} alt="Star icon" />
                             <div className={styles.bg}></div>
                         </Link>

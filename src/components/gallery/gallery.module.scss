@@ -33,8 +33,12 @@
                 h2 {
                     font-size: 75px;
                     flex: 2;
-                    font-family: barlowRegular;
+                    font-family: barlowThin;
                     font-weight: 300;
+
+                    span {
+                        text-transform: capitalize;
+                    }
 
                     @media screen and (min-width: 1000px) {
                         font-size: 100px;
@@ -77,10 +81,12 @@
         display: flex;
         flex-direction: column;
         text-transform: uppercase;
-        font-family: barlowRegular;
+        font-family: barlowThin;
+        font-weight: lighter;
 
         span {
             font-family: kudry;
+            text-transform: capitalize;
         }
     }
 

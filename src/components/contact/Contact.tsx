@@ -12,17 +12,17 @@ const Contact = () => {
                     <span>Say hi !</span>
                 </h2>
                 <p>
-                    I mean, for professionnal purpose <span>(right ?)</span>
+                    Pas encore bilingue mais j'y travail <span>(promis)</span>
                 </p>
                 <Link href={"mailto:aurelien.corre@outlook.fr"}>
-                    send me an email
+                    Envoie moi un message
                 </Link>
             </div>
             <div className={styles.joke}>
-                <p>Thanks for visiting my portfolio !</p>
+                <p>Merci d'avoir visité mon portfolio !</p>
                 <p>
-                    feel free to join me on my networks below (because life's
-                    too short not to follow random people on the internet).
+                    Hésite pas à me suivre sur mes réseaux (y'a des trucs
+                    sympa).
                 </p>
             </div>
         </section>

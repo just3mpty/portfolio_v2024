@@ -6,7 +6,7 @@
         "cover": "/img/ronan/cover.webp",
         "video": "/img/ronan/video_preview.webm",
         "images": ["/img/ronan/homepage.webp", "/img/ronan/gallery.webp"],
-        "description": "I meticulously designed the Figma mockup before translating the vision into code using React for my friend's concert photography portfolio. This portfolio showcases his dynamic work capturing moments at live performances, and the design aims to complement and highlight the vibrancy of his photography.",
+        "description": "Pour ce projet, j'ai commencé par créer une maquette sur Figma que j'ai ensuite intégrée avec React. Il s'agit du portfolio d'un ami photographe spécialisé dans la photographie de concert pour lequel j'ai voulu créer un design mettant en valeur le dynamisme et la qualité de ses photographies",
         "techStack": [
             "/icons/figma.svg",
             "/icons/nextjs.svg",
@@ -14,7 +14,7 @@
             "/icons/framer-motion.svg"
         ],
         "linkToWebiste": "https://ronanderuet.vercel.app",
-        "credits": "Photo by: @asolem.c"
+        "credits": "Photo : @asolem.c"
     },
     {
         "_id": 2,
@@ -23,7 +23,7 @@
         "cover": "/img/murphy/cover.webp",
         "video": "/img/murphy/video_preview.webm",
         "images": ["/img/murphy/homepage.webp", "/img/murphy/contact.webp"],
-        "description": "For this project, I began by crafting a mockup on Figma before proceeding with web integration using React. This website is designed to provide users with quick and easy access to the latest news of a French rapper. By implementing a responsive and dynamic approach, the aim was to create an engaging space where fans can stay informed about the artist's latest developments and interact with the content in an intuitive manner.",
+        "description": "Pour ce projet, j'ai commencé par créer une maquette sur Figma avant de procéder à l'intégration web à l'aide de React. Ce site Internet est conçu pour offrir aux utilisateurs un accès simple et rapide aux dernières actualités d'un rappeur français. L'objectif était de créer un espace engageant où les fans peuvent rester informés des dernières actualités de l'artiste et interagir avec le contenu de manière intuitive.",
         "techStack": [
             "/icons/figma.svg",
             "/icons/vite.svg",
@@ -31,7 +31,7 @@
             "/icons/sass.svg"
         ],
         "linkToWebiste": "https://34murphy.vercel.app",
-        "credits": "Photo by: @ronandrt"
+        "credits": "Photo : @ronandrt"
     },
     {
         "_id": 3,
@@ -40,7 +40,7 @@
         "cover": "/img/zenifine/cover.webp",
         "video": "/img/zenifine/video_preview.webm",
         "images": ["/img/zenifine/homepage.webp", "/img/zenifine/contact.webp"],
-        "description": "I crafted a Figma mockup for the showcase website of wellness masseuse. Subsequently, I brought this vision to life by developing the site using React. The goal was to design a modern and sleek platform, highlighting efficiency and simplicity for an optimal user experience.",
+        "description": "J'ai réalisé une maquette Figma pour le site vitrine de masseuse bien-être. Par la suite, j’ai donné vie à cette vision en développant le site sous React. L’objectif était de concevoir une plateforme moderne et épurée, mettant en avant l’efficacité et la simplicité pour une expérience utilisateur optimale.",
         "techStack": [
             "/icons/figma.svg",
             "/icons/vite.svg",
@@ -48,7 +48,7 @@
             "/icons/sass.svg"
         ],
         "linkToWebiste": "https://zenifine.vercel.app",
-        "credits": "Photo by: Life of Pix"
+        "credits": "Photo : Life of Pix"
     },
     {
         "_id": 4,
@@ -57,7 +57,7 @@
         "cover": "/img/flowerz/cover.webp",
         "video": "/img/flowerz/video_preview.webm",
         "images": ["/img/flowerz/homepage.webp", "/img/flowerz/contact.webp"],
-        "description": "I crafted a captivating React-based showcase website for a fictional Parisian florist, seamlessly integrating a design created on Figma. This project harmoniously blends creativity and functionality to enhance the virtual presence of the imaginary florist, providing a visually appealing and user-friendly experience.",
+        "description": "J'ai créé un site Web vitrine captivant avec React pour un fleuriste parisien fictif, intégrant un design créé sur Figma. Ce projet allie harmonieusement créativité et fonctionnalité pour améliorer la présence en ligne du fleuriste, offrant une expérience visuellement attrayante et conviviale.",
         "techStack": [
             "/icons/figma.svg",
             "/icons/vite.svg",
@@ -65,7 +65,7 @@
             "/icons/sass.svg"
         ],
         "linkToWebiste": "https://flowerz.vercel.app",
-        "credits": "Photo by: Cottonbro Studio"
+        "credits": "Photo : Cottonbro Studio"
     },
     {
         "_id": 5,
@@ -74,7 +74,7 @@
         "cover": "/img/empty7/cover.webp",
         "video": "/img/empty7/video_preview.webm",
         "images": ["/img/empty7/homepage.webp", "/img/empty7/actu.webp"],
-        "description": "I initiated the design process by creating a Figma mockup and subsequently implemented the web integration using React. This website serves as a platform for users to stay updated on the latest news of an artist, specifically, a rapper. The aim was to provide an engaging and dynamic space for fans to connect with the artist's latest developments.",
+        "description": "J'ai débuté ce projet en créant une maquette Figma que j'ai ensuite intégrée à l'aide de React. Ce site Web sert de plate-forme permettant aux utilisateurs de rester informés des dernières nouvelles de l'artiste. L'objectif était de fournir un espace engageant et dynamique permettant aux fans de suivre l'actualité de l'artiste.",
         "techStack": [
             "/icons/figma.svg",
             "/icons/vite.svg",
@@ -82,7 +82,7 @@
             "/icons/sass.svg"
         ],
         "linkToWebiste": "https://empty7.vercel.app",
-        "credits": "Photo by: @2ja222"
+        "credits": "Photo : @2ja222"
     },
     {
         "_id": 6,
@@ -91,7 +91,7 @@
         "cover": "/img/ypa/cover.webp",
         "video": "/img/ypa/video_preview.webm",
         "images": ["/img/ypa/homepage.webp", "/img/ypa/contact.webp"],
-        "description": "This website is designed for an artist who is a french rapper, allowing his fans to stay updated on his latest activities. I initially crafted a Figma mockup before proceeding with the web integration using React.",
+        "description": "Ce site est conçu pour un rappeur français, permettant à ses fans de rester informés de ses dernières activités. J'ai d'abord créé une maquette Figma avant de procéder à l'intégration Web à l'aide de React.",
         "techStack": [
             "/icons/figma.svg",
             "/icons/vite.svg",
@@ -99,6 +99,6 @@
             "/icons/sass.svg"
         ],
         "linkToWebiste": "https://jeunepauvre.vercel.app",
-        "credits": "Photo by: @ronandrt"
+        "credits": "Photo : @ronandrt"
     }
 ]

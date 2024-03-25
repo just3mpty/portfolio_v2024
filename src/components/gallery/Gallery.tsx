@@ -22,7 +22,7 @@ const Gallery = () => {
             {width < 800 ? (
                 <>
                     <h2>
-                        Some of my <span>work</span>
+                        quelques <span>projets</span>
                     </h2>
                     <Projects />
                 </>
@@ -31,7 +31,7 @@ const Gallery = () => {
                     <motion.div style={{ x }}>
                         <div className={styles.textWrapper}>
                             <h2>
-                                Some of my <span>work</span>
+                                Quelques <span>projets</span>
                             </h2>
                             <figure>
                                 <Image
@@ -40,7 +40,7 @@ const Gallery = () => {
                                     width={100}
                                     height={80}
                                 />
-                                <figcaption>scroll to discover</figcaption>
+                                <figcaption>scroll pour découvrir</figcaption>
                             </figure>
                         </div>
                         <Projects />
