@@ -23,7 +23,9 @@ const page = ({ params }: { params: { projectId: string } }) => {
                     muted
                     loop
                     width={200}
+                    poster={selectedProject?.video}
                 />
+
                 <div className={styles.infos}>
                     <h3>Description</h3>
                     <p>{selectedProject?.description}</p>
