@@ -10,7 +10,7 @@ import Image from "next/image";
 const icons = [
     { icon: instagram, path: "https://www.instagram.com/3mpty.dev/" },
     { icon: linkedin, path: "https://www.linkedin.com/in/corre-aurelien/" },
-    { icon: github, path: "https://github.com/3mpty78" },
+    { icon: github, path: "https://github.com/just3mpty" },
 ];
 
 const Footer = () => {
