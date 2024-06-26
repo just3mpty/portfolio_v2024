@@ -85,22 +85,5 @@
         ],
         "linkToWebiste": "https://flowerz.vercel.app",
         "credits": "Photo : Cottonbro Studio"
-    },
-    {
-        "_id": 6,
-        "title": "Empty7",
-        "category": "Artist's news",
-        "cover": "/img/empty7/cover.webp",
-        "video": "/img/empty7/video_preview.webm",
-        "images": ["/img/empty7/homepage.webp", "/img/empty7/actu.webp"],
-        "description": "J'ai débuté ce projet en créant une maquette Figma que j'ai ensuite intégrée à l'aide de React. Ce site Web sert de plate-forme permettant aux utilisateurs de rester informés des dernières nouvelles de l'artiste. L'objectif était de fournir un espace engageant et dynamique permettant aux fans de suivre l'actualité de l'artiste.",
-        "techStack": [
-            "/icons/figma.svg",
-            "/icons/vite.svg",
-            "/icons/react.svg",
-            "/icons/sass.svg"
-        ],
-        "linkToWebiste": "https://empty7.vercel.app",
-        "credits": "Photo : @2ja222"
     }
 ]
